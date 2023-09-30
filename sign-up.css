@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container-utama {
+  background-image: url(assets/ilustrasi-perpustakaan-istock_ratio-16x9\ 1.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 100px;
+  border-radius: 5px;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+label {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+input[type="text"] {
+  width: 50vh;
+  height: 40px;
+  justify-content: center;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+}
+input[type="password"] {
+  width: 50vh;
+  height: 40px;
+  justify-content: center;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+}
+#konfirmasi {
+  width: 50vh;
+  height: 40px;
+  justify-content: center;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  justify-content: center;
+  background-color: #212a3e;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 100px;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 20vh;
+  font-family: "Poppins", sans-serif;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
