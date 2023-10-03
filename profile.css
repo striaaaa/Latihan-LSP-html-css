@@ -107,7 +107,7 @@ html {
 }
 
 .side-bar a:hover {
-  text-decoration: underline;
+  color: #66ccff;
 }
 
 .right-container {
@@ -151,4 +151,142 @@ html {
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
+}
+
+.second-container {
+  background-color: #e3f4f4;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.second-title span {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+.container-img-bagan {
+  width: 900px;
+  height: 500px;
+  display: flex;
+  background-color: #212a3e;
+}
+
+.container-img-bagan img {
+  width: 100%;
+  height: 100%;
+}
+
+.container-panduan-perpustakaan {
+  background-color: #e3f4f4;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-panduan {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.submenu-panduan {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.content-panduan {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding-left: 100px;
+}
+
+.content-panduan li {
+  padding-top: 10px;
+}
+
+.container-tata-perpustakaan {
+  background-color: #e3f4f4;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-tartib {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.submenu-tartib {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.content-tartib {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding-left: 100px;
+}
+
+.content-tartib li {
+  padding-top: 10px;
+}
+
+.container-faq {
+  background-color: #e3f4f4;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-faq {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.submenu-faq {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.submenu-faq2 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+.content-faq {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding-left: 100px;
+  padding-top: 10px;
 }
