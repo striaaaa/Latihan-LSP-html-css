@@ -89,6 +89,11 @@ body {
   justify-content: center;
 }
 
+.penampung a {
+  color: black;
+  text-decoration: none;
+}
+
 .gallery-item {
   width: 281px;
   height: auto;
