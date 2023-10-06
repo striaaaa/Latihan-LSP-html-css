@@ -5,6 +5,14 @@ body {
   background-color: #e3f4f4;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   background-color: #212a3e;
   color: #fff;
